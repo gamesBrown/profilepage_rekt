@@ -1,0 +1,254 @@
+*{
+    
+    margin:0;
+    padding:0;
+    /* outline: 2px soli7d red; */
+    /*outline for mapping webpage*/
+}
+.container{
+    
+    width: 1280px;
+    height: 720px;
+    background-color: moccasin;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navbar{
+    height: 10%;
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.nav-links{
+    display:flex;   
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-left: 10%;
+    
+}
+.nav-links >*{
+    list-style-type: none;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: cursive;
+    font-size: smaller;
+    
+    
+    
+    
+}   
+#main{
+    
+    height: 90%;
+    width: 75%;
+    align-self: center;
+    display: flex;
+    
+
+}
+.column{display:flex;
+    flex-direction: column;
+    padding: 10px;
+    
+    
+
+}
+.first{
+    flex:2;
+
+}
+.second{
+
+    flex:1;
+
+}
+
+.subcontent{
+    background-color: white;
+    flex:1;
+    margin-bottom: 25px;
+    
+
+}
+
+.connections{
+    flex:2;
+}
+.signout{
+    margin-left:70%;
+    
+    
+    background-color: darkturquoise;
+
+}
+.label{
+    height: 45px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.card{
+    width :100%;
+    height :100%;
+    background-color: white;
+    border: 3px solid gray;
+    align-self: center;
+    
+    
+}
+
+.cardTop{
+    height:25%;
+    background-color:darkturquoise;
+    
+}
+.cardTop >img{
+    height: 60px;
+    position: relative;
+    top: 50%;
+    left:20px;
+    outline: 2px solid black;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.cardBottom{
+    padding-top: 30px;
+    
+    
+}
+.cardBottom>img{
+    width: 10px;
+    
+
+}
+
+.cardBottom > *{
+    margin-left: 20px;
+    font-family: cursive;
+    font-size: medium;
+}
+.cardBottom > h2{
+    font-size: larger;
+    margin-bottom: 5px;
+    
+}
+.cardBottom > h4{
+    font-size: small;
+    
+}
+
+.cardBottom a > img{
+    height: 15px;
+    
+}
+.editProfile{
+    font-size: smaller;
+    margin-top: 15px;
+    
+    
+    
+}
+.labelText{
+    color: white;
+    font-family: cursive;
+    margin-left: 20px;
+    
+    
+    
+    
+}
+.circle{
+    background-color: darkgrey;
+    border-radius: 100%;
+    width: 10%;
+    
+    text-align: center;
+    font-family: cursive;
+    height: 50%;
+    margin-left: 10px;
+    /* position: relative;
+    top: 25%;
+    left: 10px; */
+
+}
+
+.oval{
+    background-color: darkgrey;
+    border-radius: 50%;
+    width: 20%;
+    text-align: center;
+    font-family: cursive;
+    height: 50%;
+    margin-left: 10px;
+    /* position: relative;
+    top: 25%;
+    left: 10px; */
+
+}
+
+.subcontent > p, h2, h4{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: cursive;
+}
+.subcontent >h4{
+    margin-top: 10px;
+    color: gray;
+}
+.subcontent >h2{
+    
+    
+    font-size: large;
+}
+
+.userBox{
+    
+    height: 77%;
+    display: flex;
+
+    
+    border: 2px solid gray;
+    
+}
+.userBox ul{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 20px;
+    
+    height: 100%;
+    list-style-type: none;
+}
+.userBox li{
+    margin-top: 5px;
+    flex:1;
+    font-family: cursive;
+    font-size: large;
+    
+    
+}
+.userBox img{
+    height:30px;
+
+}
+.userBox a{
+    font-family: cursive;
+}
+
+.boxMe{
+    
+    display: inline-block;
+    outline: 1px solid blue;
+    
+    
+
+    
+    
+}
