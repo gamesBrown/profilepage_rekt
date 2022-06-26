@@ -9,7 +9,7 @@
     
     width: 1280px;
     height: 720px;
-    background-color: moccasin;
+    
     border:1px solid black;
     display: flex;
     flex-direction: column;
@@ -29,16 +29,16 @@
     display:flex;   
     align-items: center;
     justify-content: space-between;
-    
-    padding-left: 10%;
+    width: 100%;
+    padding-left: 15%;
     
 }
 .nav-links >*{
     list-style-type: none;
-    padding-left: 15%;
-    padding-right: 15%;
+    
+
     font-family: cursive;
-    font-size: smaller;
+    font-size: smaller;68
     
     
     
@@ -61,7 +61,7 @@
 
 }
 .first{
-    flex:2;
+    flex:1.5
 
 }
 .second{
@@ -82,9 +82,14 @@
     flex:2;
 }
 .signout{
-    margin-left:70%;
-    
-    
+    justify-self: end;
+    margin-right: 13%;
+    margin-left: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
     background-color: darkturquoise;
 
 }
@@ -98,7 +103,7 @@
     width :100%;
     height :100%;
     background-color: white;
-    border: 3px solid gray;
+    border: 2px solid gray;
     align-self: center;
     
     
@@ -150,7 +155,8 @@
 }
 .editProfile{
     font-size: smaller;
-    margin-top: 15px;
+
+    margin-top: 5%;
     
     
     
@@ -199,13 +205,14 @@
     font-family: cursive;
 }
 .boxMe >h4{
-    margin-top: 10px;
+    
     color: gray;
 }
 .boxMe >h2{
     
     
     font-size: large;
+    margin-bottom: 10px;
 }
 
 .userBox{
@@ -240,6 +247,13 @@
 
 }
 
+.icons{
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.spaceUser{
+    padding-right: 20px;
+}
 
 .boxMe{
     
@@ -251,8 +265,10 @@
     border: 2px solid grey;
     height: 10%;
     border-top :0px;
+    display: flex;
+    align-items: center;
 }
 .viewMore > a{
-    margin-top: 10px;
+    
     margin-left: 20px;
 }
